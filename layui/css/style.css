@@ -1,0 +1,449 @@
+i,b,u {
+	font-style: normal;
+}
+body {
+	font-family: "宋体","SimSun";
+	background-color: #F0F0F5;
+}
+.layui-btn-block {
+	display: block;
+	margin: 0 auto;
+}
+[disabled],.layui-disabled {
+	color: #666 !important;
+	background-color: #eee;
+}
+.left .logo {
+	display: block;
+	margin: 10px auto;
+}
+.layui-nav-tree .layui-nav-bar {
+	display: none;
+}
+.layui-nav-tree .layui-nav-item a {
+	height: auto;
+}
+.layui-nav-tree .layui-nav-item i {
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 10px auto 0;
+}
+.layui-nav-tree .nav_case i {
+	background: url(../images/banner.png) center center no-repeat;
+	background-size: 100%;
+}
+.layui-nav-tree .nav_account i {
+	background: url(../images/input_captcha.png) center center no-repeat;
+	background-size: 100%;
+}
+.layui-nav-tree .nav_role i {
+	background: url(../images/bg2.png) center center no-repeat;
+	background-size: 100%;
+}
+.layui-nav-tree .nav_manage i {
+	background: url(../images/login_btn.png) center center no-repeat;
+	background-size: 100%;
+}
+.layui-nav-tree .layui-nav-item p {
+	text-align: center;
+}
+
+.layui-tab .layui-this,.layui-tab-item {
+	background-color: #fff;
+}
+
+.layui-layout-admin .layui-body {
+	bottom: 0;
+	padding: 15px;
+}
+.layui-body .layui-table-view {
+	margin-bottom: 0;
+}
+.layui-body .layui-table-view .layui-btn {
+	height: 27px;
+	line-height: 27px;
+}
+
+/* layui-body */
+.layui-body .layui-body-title {
+	line-height: 38px;
+}
+
+/* iframe */
+.layui-form-iframe {
+	position: relative;
+	padding: 15px;
+	line-height: 38px;
+	text-indent: 5px;
+	background: #fff;
+}
+.layui-form-iframe .layui-btn {
+	margin: 20px auto 0;
+}
+.layui-form-iframe .layui-btn-case-save {
+	display: block;
+	padding: 0 50px;
+}
+.layui-form-iframe-case {
+	position: relative;
+	padding-top: 68px;
+	bckground-color: #ddd;
+}
+.layui-form-iframe-case .abs_shade {
+	position: absolute;
+	z-index: 1;
+	height: 58px;
+	background-color: #fff;
+	width: 100%;
+	top: 0;
+	left: 0;
+	box-shadow: 0 1px 10px 1px rgba(0,0,0,.2);
+}
+.layui-form-iframe-case .abs {
+	position: absolute;
+	left: 15px;
+    right: 15px;
+	top: 10px;
+	z-index: 2;
+}
+.layui-form-iframe-case .case_intro {
+	display: none;
+}
+
+/* layui-form-iframe-detail */
+.layui-form-iframe-detail {
+	line-height: 35px;
+}
+.layui-form-iframe-detail span {
+	display: inline-block;
+	text-align: right;
+	width: 100px;
+    white-space: nowrap;
+}
+.layui-form-iframe-detail span.two {
+	line-height: 19px;
+    vertical-align: middle;
+}
+.layui-form-iframe-detail i {
+	display: block;
+	font-size: 10px;
+}
+.layui-form-iframe-detail .layui-input,.layui-form-iframe-detail .layui-form-select {
+	display: inline-block;
+	width: auto;
+	border: 0;
+}
+.layui-form-iframe-detail textarea {
+	display: inline-block;
+	vertical-align: top;
+	min-height: 30px;
+	height: 30px;
+	padding: 10px 6px 0;
+	border: 0;
+	resize: none;    
+}
+.layui-form-iframe-detail .layui-div {
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	min-height: 30px;
+	line-height: 20px;
+	text-indent: 0;
+	padding-top: 8px;
+}
+.layui-col-line2 {
+	line-height: 18px;
+	vertical-align: middle;
+	padding-top: 8px;
+}
+.layui-col-line2 i {
+	display: block;
+	font-size: 8px;
+}
+.tsjb .layui-col-sm1 {
+	padding-right: 0;
+}
+.layui-view {
+	
+}
+.layui-view .layui-row {
+	margin-bottom: 10px;
+}
+.layui-view .layui-row>div {
+	line-height: 20px;
+}
+.layui-view .fj {
+	
+}
+.layui-view .fj a {
+	display: block;
+	line-height: 20px;
+	text-decoration: underline;
+	color: blue;
+}
+
+/* layui-form-iframe-role */
+.select_com_ul {
+	border: 1px solid #e6e6e6;
+	padding: 0 5px;
+	overflow: auto;
+}
+.select_com_ul li {
+	display: table;
+    height: 20px;
+    background-image: none;
+    line-height: 20px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-indent: 2px;
+    margin: 5px 0;
+}
+.select_com_ul li .layui-form-checkbox i {
+    text-indent: 0;
+}
+.select_com_ul li ul {
+	display: table;
+    width: 100%;
+    margin: 3px 20px 0;
+}
+.select_com_ul li ul li {
+	margin: 2px 0;
+}
+
+/* layui-body-case-ipt */
+.layui-body-case-ipt .layui-tab {
+	margin: 0;
+}
+.layui-body-case-ipt .layui-tab-content {
+	padding: 0;
+}
+.layui-body-case-ipt iframe {
+	width: 100%;
+}
+.case_modify {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	top: 75px;
+	right: 15px;
+	left: 215px;
+	bottom: 15px;
+	background-color: #fff;
+}
+.case_modify button {
+	margin: 5px 10px;
+}
+.case_modify iframe {
+	width: 100%;
+}
+
+/* login */
+.loginbody {
+    overflow: hidden;
+}
+.login_bg {
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../images/bg2.png) center center no-repeat;
+}
+.loginbody .wrap {
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 1018px;
+    height: 538px;
+    margin-top: -269px;
+    margin-left: -509px;
+    background: url(../images/bg.png) center center no-repeat;
+}
+.loginbody .wrap .browser_tip {
+    float: left;
+    color: #666;
+    font-size: 16px;
+    margin-top: -53px;
+    margin-left: 250px;
+}
+.login_t .login_t_t {
+    text-align: center;
+}
+.login_t .login_t_t .t_english {
+    font-size: 16px;
+    line-height: 15px;
+}
+.login_t img {
+    display: block;
+    margin: 35px 55px 20px;
+}
+.login_box {
+    position: relative;
+    width: 920px;
+    height: 300px;
+    margin: 0 auto;
+    background: url(../images/banner.png) center center no-repeat;
+}
+.login_box form {
+	margin-top: 20px;
+}
+.login_box .bot {
+    position: absolute;
+    top: -20px;
+    right: 35px;
+    z-index: 10;
+    width: 326px;
+    height: 380px;
+    background: url(../images/bg_login.png) 0 0 no-repeat;
+}
+.login_box .bot h3 {
+    text-align: center;
+    color: #696969;
+    font-size: 24px;
+    height: 80px;
+    line-height: 80px;
+    /*background: url(../images/login_title.png) center center no-repeat;*/
+}
+.login_box .bot .ipt {
+    position: relative;
+    width: 285px;
+    height: 43px;
+    margin: 10px auto;
+}
+.login_box .bot .ipt_code {
+    /*float: left;*/
+    /*width: 200px;*/
+}
+.login_box .bot .ipt_code img {
+    float: right;
+    width: 78px;
+    height: 42px;
+}
+.login_box .bot .ipt input {
+    position: absolute;
+    right: 3px;
+    top: 2px;
+    outline: none;
+    border: 0;
+    width: 235px;
+    height: 37px;
+    background: none;
+    line-height: 37px;
+    text-indent: 10px;
+    color: #333;
+}
+.login_box .bot .ipt_code input {
+    width: 150px;
+    right: 88px;
+    /*margin-left: */
+}
+.login_box .bot .ipt_user {
+    /*margin-top: 20px;*/
+    background: url(../images/input_user.png) 0 0 no-repeat;
+}
+.login_box .bot .ipt_psd {
+    background: url(../images/input_password.png) 0 0 no-repeat;
+}
+.login_box .bot .ipt_user:hover {
+    background: url(../images/input_user_h.png) 0 0 no-repeat;
+}
+.login_box .bot .ipt_psd:hover {
+    background: url(../images/input_password_h.png) 0 0 no-repeat;
+}
+.login_box .bot .ipt_code {
+    background: url(../images/input_captcha.png) 0 0 no-repeat;
+}
+.login_box .bot .ipt_code:hover {
+    background: url(../images/input_captcha_h.png) 0 0 no-repeat;
+}
+.login_btn {
+    position: relative;
+    display: block;
+    width: 152px;
+    height: 38px;
+    line-height: 38px;
+    border: 0;
+    margin: 20px auto 0;
+    padding: 0;
+    color: #fff;
+    text-align: left;
+    text-indent: 40px;
+    background: url(../images/login_btn.png) 0 0 no-repeat;
+}
+.login_btn:hover {
+    background: url(../images/login_btn_h.png) 0 0 no-repeat;
+}
+.login_btn span {
+    float: left;
+    display: inline-block;
+    width: 155px;
+    height: 38px;
+    border-radius: 5px;
+    text-align: left;
+    text-indent: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login_tip {
+    display: block;
+    width: 200px;
+    margin: 15px auto;
+    line-height: 15px;
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+}
+.login_b {
+    text-align: center;
+    color: #666;
+    margin-top: 45px;
+    font-size: 12px;
+}
+.login_b p {
+    line-height: 15px;
+}
+.wrap .browser_tip {
+    float: left;
+    color: #666;
+    font-size: 16px;
+    margin-top: -53px;
+    margin-left: 250px;
+}
+
+/* header */
+.layui-layout-admin .layui-header {
+	background-color: #fff;
+}
+.header ul {
+	margin-right: 15px;
+}
+.header li {
+	display: inline-block;
+	color: #333;
+	line-height: 60px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.header li img {
+	margin: 0;
+}
+.header li span {
+	line-height: 60px;
+	vertical-align: middle;
+}
+.header li.line {
+	height: 20px;
+	margin: 20px 5px;
+	border-right: 1px solid #ddd;
+}
+
+.layui-layout-admin .layui-side {
+	z-index: 10001;
+	top: 0;
+}
+
+

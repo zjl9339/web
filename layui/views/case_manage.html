@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>案件管理系统</title>
+	<link rel="stylesheet" href="../js/layui/css/layui.css">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="layui-layout-body">
+	<div class="layui-layout layui-layout-admin">
+		<div class="header"></div>
+		<div class="left"></div>
+		<!-- 内容主体区域 -->
+		<div class="layui-body layui-body-case-ipt">
+			<div class="layui-tab" lay-filter="tab">
+				<ul class="layui-tab-title">
+					<li class="layui-this">案件录入</li>
+					<li>未完结</li>
+					<li>已完结</li>
+				</ul>
+				<div class="layui-tab-content">
+					<div class="layui-tab-item layui-show">
+						<iframe src="iframe_case.html" id="iframe" name="iframe" frameborder="0"></iframe>
+					</div>
+					<div class="layui-tab-item">
+						<table id="tableUnfinsh" lay-filter="table"></table>
+					</div>
+					<div class="layui-tab-item">
+						<table id="tableFinsh" lay-filter="table"></table>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<script src="../js/layui/layui.js"></script>
+	<script src="../js/common/common.js"></script>
+	<script src="../js/common/base.js"></script>
+	<script src="../js/case_manage.js"></script>
+</body>
+</html>

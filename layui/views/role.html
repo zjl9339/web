@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>案件管理系统</title>
+	<link rel="stylesheet" href="../js/layui/css/layui.css">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="layui-layout-body">
+	<div class="layui-layout layui-layout-admin">
+		<div class="header"></div>
+		<div class="left"></div>
+		
+		<!-- 内容主体区域 -->
+		<div class="layui-body">
+			<div class="layui-row layui-col-space10">
+				<div class="layui-col-md11"><span class="layui-body-title">角色列表</span></div>
+				<div class="layui-col-md1">
+					<button type="button" class="layui-btn layui-btn-fluid" id="add">创建</button>
+				</div>
+			</div>
+			<!-- 表格 -->
+			<table id="table" lay-filter="table"></table>
+		</div>
+	</div>
+	
+	<script src="../js/layui/layui.js"></script>
+	<script src="../js/common/base.js"></script>
+	<script src="../js/role.js"></script>
+</body>
+</html>

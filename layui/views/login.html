@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <META HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <META HTTP-EQUIV="expires" CONTENT="0">
+	<title>案件管理系统</title>
+	<link rel="stylesheet" href="../js/layui/css/layui.css">
+    <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body class="loginbody">
+    <div class="login_bg"></div>
+    <div class="wrap">
+        <div class="login_t">
+            <img src="../images/logo.png" alt="国融证券logo" class="logo"/>
+            <p class="browser_tip">请确认您的ie版本为ie9以上，以便流畅体验系统功能</p>
+        </div>
+        <div class="login_box">
+            <div class="bot">
+                <div class="bot_r">
+                    <h3></h3>
+                    <div class="bot_r_m"></div>
+                    <form class="layui-form" id="login_form" lay-filter="formLogin">
+                        <div class="bot_r_r">
+                            <div class="ipt ipt_user">
+								<div class="img"></div>
+								<input type="text" name="username" placeholder="请输入账号" lay-verify="required" autocomplete="off" class="layui-input"/>
+							</div>
+                            <div class="ipt ipt_psd">
+								<div class="img psd"></div>
+								<input type="password" name="password" placeholder="请输入密码" lay-verify="required" autocomplete="off" class="layui-input"/>
+							</div>
+                            <!-- <div class="ipt ipt_code"><div class="img code"></div><input type="text"  id="login_code" placeholder="请输入验证码" autocomplete="off"/><img  id="img" onclick="this.src='../user/getCaptcha?d='+Math.random()" alt=""/></div> -->
+                            <button class="btn login_btn" lay-submit lay-filter="login"><span>登录</span></button>
+                            <p class="login_tip">请输入用户名和密码登录系统，如账 号登入遇到问题，请联系管理员。</p>
+                            <div class="btn_shadow"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="login_b">
+            <p>国融证券股份有限公司版权所有 </p>
+            <p>Copyright © 2002 GRZQ All Rights Reserved</p>
+        </div>
+    </div>
+	
+	<script src="../js/layui/layui.js"></script>
+	<script src="../js/sha256.js"></script>
+	<script src="../js/common/base.js"></script>
+	<script src="../js/common/common.js"></script>
+	<script src="../js/login.js"></script>
+</body>
+</html>
